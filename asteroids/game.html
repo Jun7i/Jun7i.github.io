@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Asteroids</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+  </head>
+  <body>
+    <a href="https://codepen.io/Jun_7i/pen/JjYLzRX"><h1 style="color: green;">Asteroids</h1></a>
+    <h3>Click canvas and use the space key and the arrow keys on the keyboard to control.</h3>
+    
+    <script type='application/processing' target='processing'>
+        var game = new AsteroidsGame("asteroids");
+    </script>
+    <canvas id="asteroids" width="600" height="450" tabindex="1"></canvas>
+    
+  </body>
+</html>
